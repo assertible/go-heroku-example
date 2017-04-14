@@ -1,21 +1,29 @@
 # Automated smoke tests for Go and Heroku using Assertible
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertibleexample.herokuapp.com/) [![CircleCI](https://circleci.com/gh/assertible/go-heroku-example.svg?style=svg&circle-token=54502d43ebe83668441acb3636e4e3eebf2b0fd9)](https://circleci.com/gh/assertible/go-heroku-example) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertibleexample.herokuapp.com/) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
+
 
 ## Quick start
 
 Setup automated smoke tests for any Go using Heroku Review Apps:
 
 - Setup a heroku app w/ Heroku Review Apps enabled
+  <img
+    src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-dash-pipeline.png"
+    alt="Heroku pipeline with Review Apps Enabled" />
 
-- Configure Assertible web service - [guide]
- < PICTURE >
+- Configure Assertible web service
+  <img
+    src="https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-new-service-go-heroku-example.png"
+    alt="Heroku pipeline with Review Apps Enabled" />
 
 - Connect Assertible web service to GitHub
+  <img
+    src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-example-assertible-deployments-configuration.png"
+    alt="Heroku pipeline with Review Apps Enabled" />
 
 - Push code to a pull request
 
-When all status checks are passing...
 
 ## Documentation and resources
 
