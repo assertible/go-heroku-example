@@ -21,5 +21,5 @@ func hello(res http.ResponseWriter, req *http.Request) {
 }
 
 func foo(res http.ResponseWriter, req *http.Request) {
-    fmt.Fprintln(res, "called /foo")
+    fmt.Fprintln(res, "{\"foo\":\"bar\"}")
 }
