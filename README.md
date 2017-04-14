@@ -1,7 +1,11 @@
-# Automated smoke tests for Go and Heroku using Assertible
+# Automate smoke tests for a Go app on Heroku 
 
 [![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertibleexample.herokuapp.com/) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
 
+Every deployment to Heroku is automatically tested
+using [Assertible](https://assertible.com). See
+the
+[**Example pull request**](https://github.com/assertible/go-heroku-example/pull/1).
 
 ## Quick start
 
@@ -39,9 +43,19 @@ Setup automated smoke tests for any Go using Heroku Review Apps:
 - [Automating QA pipelines for Heroku Review Apps](https://assertible.com/blog/automating-qa-pipelines-for-heroku-review-apps)
 
 
-## Testing changes merged to master
+## Testing production
 
-- configure a new environment with the name of your Heroku app
+When changes are merged to `master`, Assertible will automatically run
+checks against your production application.
+
+You may need to configure a new environment in Assertible which
+matches the name of your Heroku application. For this app I have
+created an environment named `go-heroku-assertible-example`:
+
+<img
+  src="https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-go-heroku-assertible-example-environment.png"
+  alt="Heroku pipeline with Review Apps Enabled" />
+
 
 ## License
 
