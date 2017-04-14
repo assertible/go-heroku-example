@@ -7,12 +7,14 @@ import (
 )
 
 func main() {
+
     http.HandleFunc("/", hello)
     http.HandleFunc("/foo", foo)
-    fmt.Println("listening...")
+
     err := http.ListenAndServe(":"+os.Getenv("PORT"), nil)
+
     if err != nil {
-      panic(err)
+        panic(err)
     }
 }
 
@@ -21,5 +23,5 @@ func hello(res http.ResponseWriter, req *http.Request) {
 }
 
 func foo(res http.ResponseWriter, req *http.Request) {
-    fmt.Fprintln(res, "{\"foo\":\"bar\"}")
+    fmt.Fprintln(res, "{\"foo\":\"baz\"}")
 }
