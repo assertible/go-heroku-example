@@ -7,46 +7,41 @@
 
 Setup automated smoke tests for any Go using Heroku Review Apps:
 
-- Setup a heroku app w/ Heroku Review Apps enabled
+### 1. Setup a heroku app w/ Heroku Review Apps enabled
 
-  <img
-    src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-dash-pipeline.png"
-    alt="Heroku pipeline with Review Apps Enabled" />
+<img
+  src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-dash-pipeline.png"
+  alt="Heroku pipeline with Review Apps Enabled" />
 
-- Configure Assertible web service
+### 2. Configure Assertible web service
 
-  <img
-    src="https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-new-service-go-heroku-example.png"
-    alt="Heroku pipeline with Review Apps Enabled" />
+<img
+  src="https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-new-service-go-heroku-example.png"
+  alt="Heroku pipeline with Review Apps Enabled" />
 
-- Connect Assertible web service to GitHub
+### 3. Connect Assertible web service to GitHub
 
-  <img
-    src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-example-assertible-deployments-configuration.png"
-    alt="Heroku pipeline with Review Apps Enabled" />
+<img
+  src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-example-assertible-deployments-configuration.png"
+  alt="Heroku pipeline with Review Apps Enabled" />
 
-- Push code to a pull request
+### 4. Push code to a pull request
 
-  <img
-    src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-assertible-successful-deployment.png"
-    alt="Heroku pipeline with Review Apps Enabled" />
+<img
+  src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-assertible-successful-deployment.png"
+  alt="Heroku pipeline with Review Apps Enabled" />
 
 
 ## Documentation and resources
 
 - [Create a new heroku app](https://medium.com/@freeformz/hello-world-with-go-heroku-38295332f07b)
-- [Configure Heroku Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps)
+- [Setup Heroku Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps)
 - [Automating QA pipelines for Heroku Review Apps](https://assertible.com/blog/automating-qa-pipelines-for-heroku-review-apps)
 
 
-## Creating a Heroku Review App
+## Testing changes merged to master
 
-If you don't have Review Apps configured...
-
-- Connect to github
-- Create heroku pipeline
-- Create app.json
-
+- configure a new environment with the name of your Heroku app
 
 ## License
 
