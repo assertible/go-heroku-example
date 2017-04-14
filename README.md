@@ -27,6 +27,10 @@ Setup automated smoke tests for any Go using Heroku Review Apps:
 
 - Push code to a pull request
 
+  <img
+    src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-assertible-successful-deployment.png"
+    alt="Heroku pipeline with Review Apps Enabled" />
+
 
 ## Documentation and resources
 
