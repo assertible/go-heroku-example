@@ -11,7 +11,7 @@ using [Assertible](https://assertible.com).
 
 ## Quick start
 
-### 1. Setup a heroku app w/ Heroku Review Apps enabled
+### 1. Setup a Heroku app w/ Review Apps enabled
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-dash-pipeline.png"
@@ -21,19 +21,19 @@ using [Assertible](https://assertible.com).
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-new-service-go-heroku-example.png"
-  alt="Heroku pipeline with Review Apps Enabled" />
+  alt="Configuring a web service in Assertible" />
 
 ### 3. Connect Assertible web service to GitHub
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-example-assertible-deployments-configuration.png"
-  alt="Heroku pipeline with Review Apps Enabled" />
+  alt="Connect Assertible to GitHub" />
 
 ### 4. Push code to a pull request
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-assertible-successful-deployment.png"
-  alt="Heroku pipeline with Review Apps Enabled" />
+  alt="Automated API tests run by Assertible reported to GitHub pull request" />
 
 
 ## Documentation and resources
