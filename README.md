@@ -1,17 +1,17 @@
 # Automate smoke tests for a Go app on Heroku 
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertibleexample.herokuapp.com/) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertible-example.herokuapp.com/) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
 
-Every deployment to Heroku is automatically tested
-using [Assertible](https://assertible.com). See
-the
-[**Example pull request**](https://github.com/assertible/go-heroku-example/pull/1).
+Test your live app after every deployment to Heroku automatically
+using [Assertible](https://assertible.com).
+
+[**Example pull request**](https://github.com/assertible/go-heroku-example/pull/1)
+
+[**Try it by opening a Pull Request**](https://github.com/assertible/go-heroku-example/compare)
 
 ## Quick start
 
-Setup automated smoke tests for any Go using Heroku Review Apps:
-
-### 1. Setup a heroku app w/ Heroku Review Apps enabled
+### 1. Setup a Heroku app w/ Review Apps enabled
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-dash-pipeline.png"
@@ -21,19 +21,19 @@ Setup automated smoke tests for any Go using Heroku Review Apps:
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/assertible-new-service-go-heroku-example.png"
-  alt="Heroku pipeline with Review Apps Enabled" />
+  alt="Configuring a web service in Assertible" />
 
 ### 3. Connect Assertible web service to GitHub
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-example-assertible-deployments-configuration.png"
-  alt="Heroku pipeline with Review Apps Enabled" />
+  alt="Connect Assertible to GitHub" />
 
 ### 4. Push code to a pull request
 
 <img
   src="https://s3-us-west-2.amazonaws.com/assertible/blog/go-heroku-assertible-successful-deployment.png"
-  alt="Heroku pipeline with Review Apps Enabled" />
+  alt="Automated API tests run by Assertible reported to GitHub pull request" />
 
 
 ## Documentation and resources
