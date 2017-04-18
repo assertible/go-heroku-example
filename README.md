@@ -1,6 +1,6 @@
 # Automate smoke tests for a Go app on Heroku 
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertible-example.herokuapp.com/) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)] [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
 
 Test your live app after every deployment to Heroku automatically
 using [Assertible](https://assertible.com).
@@ -38,6 +38,7 @@ using [Assertible](https://assertible.com).
 
 ## Documentation and resources
 
+- [Automate smoke tests for a Go API on Heroku](https://assertible.com/blog/automate-smoke-tests-for-a-go-api-on-heroku)
 - [Create a new heroku app](https://medium.com/@freeformz/hello-world-with-go-heroku-38295332f07b)
 - [Setup Heroku Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps)
 - [Automating QA pipelines for Heroku Review Apps](https://assertible.com/blog/automating-qa-pipelines-for-heroku-review-apps)
