@@ -5,7 +5,7 @@
 Automatically run smoke tests for a Go application every time it's
 deployed to Heroku using [Assertible](https://assertible.com).
 
-[**Example pull request**](https://github.com/assertible/go-heroku-example/pull/1)
+[**Example pull request**](https://github.com/assertible/go-heroku-example/pull/5)
 
 [**Try it by opening a Pull Request**](https://github.com/assertible/go-heroku-example/compare)
 
