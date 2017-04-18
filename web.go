@@ -23,5 +23,5 @@ func hello(res http.ResponseWriter, req *http.Request) {
 }
 
 func foo(res http.ResponseWriter, req *http.Request) {
-    fmt.Fprintln(res, "{\"foo\":\"baz\"}")
+    fmt.Fprintln(res, "{\"foo\":true}")
 }
