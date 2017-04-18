@@ -1,6 +1,7 @@
 # Automate smoke tests for a Go app on Heroku 
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)] [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
+
+[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertible-example.herokuapp.com/) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
 
 Test your live app after every deployment to Heroku automatically
 using [Assertible](https://assertible.com).
