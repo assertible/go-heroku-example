@@ -17,7 +17,8 @@ working with Assertible.
 
 For a more detailed set of steps, check out the
 post
-[**Tutorial: Automate smoke tests for a Go API on Heroku**](https://github.com/assertible/go-heroku-example/compare)
+[**Tutorial: Automate smoke tests for a Go API on Heroku**](https://assertible.com/blog/automate-smoke-tests-for-a-go-api-on-heroku)
+
 
 ### 1. Setup a Heroku app w/ Review Apps enabled
 
