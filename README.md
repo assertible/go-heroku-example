@@ -1,24 +1,27 @@
-# Automate smoke tests for a Go app on Heroku 
-
-[![Heroku](https://heroku-badge.herokuapp.com/?app=go-heroku-assertible-example)](https://go-heroku-assertible-example.herokuapp.com/) [![Test status](https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde)](https://assertible.com/dashboard#/services/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/results)
+<div align="center">
+  <a href="https://assertible.com" target="_blank">
+    <img src="https://assertible.com/images/logo/logo-horizontal-512x.png" width="256" alt="Assertible logo" title="Testing a Node.js API with Assertible"/>
+  </a>
+  <h2>Automated smoke testing a Go app on Heroku example</h2>
+  <hr/>
+  <a href="https://go-heroku-assertible-example.herokuapp.com/">
+    <img title="Heroku app" src="https://heroku-badges.herokuapp.com/?app=go-heroku-assertible-example"/>
+  </a>
+  <a href="https://assertible.com">
+      <img title="Assertible status" src="https://assertible.com/apis/1ffc0c9d-d1e7-47c2-b4d1-62bae28791fb/status?api_token=4f7732214e77f3bcde"/>
+  </a>
+  <br/>
+</div>
 
 Automatically run smoke tests for a Go application every time it's
 deployed to Heroku using [Assertible](https://assertible.com).
 
-[**Example pull request**](https://github.com/assertible/go-heroku-example/pull/5)
-
-[**Try it by opening a Pull Request**](https://github.com/assertible/go-heroku-example/compare)
-
+[**Tutorial: Automated smoke testing a Go API on Heroku**](https://assertible.com/blog/automate-smoke-tests-for-a-go-api-on-heroku) &nbsp; &middot; &nbsp; [**Example PR**](https://github.com/assertible/go-heroku-example/pull/5) &nbsp; &middot; &nbsp; [**Try opening a PR**](https://github.com/assertible/go-heroku-example/compare)
 
 ## Quick start
 
 The following step are high-level overview for how to get review apps
 working with Assertible.
-
-For a more detailed set of steps, check out the
-post
-[**Tutorial: Automate smoke tests for a Go API on Heroku**](https://assertible.com/blog/automate-smoke-tests-for-a-go-api-on-heroku)
-
 
 ### 1. Setup a Heroku app w/ Review Apps enabled
 
@@ -71,3 +74,9 @@ created an environment named `go-heroku-assertible-example`:
 
 The code in this repository is licensed under
 MIT. [View the license](https://github.com/assertible/deployments/blob/master/LICENSE)
+
+---
+
+> [assertible.com](http://assertible.com) &nbsp;&middot;&nbsp;
+> GitHub [@assertible](https://github.com/assertible) &nbsp;&middot;&nbsp;
+> Twitter [@AssertibleApp](https://twitter.com/AssertibleApp)
