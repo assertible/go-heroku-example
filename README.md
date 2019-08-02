@@ -80,3 +80,5 @@ MIT. [View the license](https://github.com/assertible/deployments/blob/master/LI
 > [assertible.com](http://assertible.com) &nbsp;&middot;&nbsp;
 > GitHub [@assertible](https://github.com/assertible) &nbsp;&middot;&nbsp;
 > Twitter [@AssertibleApp](https://twitter.com/AssertibleApp)
+
+SHOULD AUTOMATICALLY READ `deployment.payload.web_url`
