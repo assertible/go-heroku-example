@@ -1,6 +1,7 @@
 {
   "name": "go-heroku-example",
   "scripts": {
+      "postdeploy": "sleep 300"
   },
   "env": {
   },
